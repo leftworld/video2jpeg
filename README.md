@@ -1,6 +1,6 @@
-video2jpeg
+video2jpeg , use ffmpeg
 
-video to jpeg 
+video to jpeg , mp4, h264 and so.
 
 Video one frame convert to jpeg .
 
