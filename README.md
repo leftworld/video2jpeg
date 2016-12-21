@@ -1,8 +1,8 @@
-video2jpeg , use ffmpeg
+video2jpeg jpg, use ffmpeg
 
-video to jpeg , mp4, h264 and so.
+video to jpeg jpg, mp4, h264 and so.
 
-Video one frame convert to jpeg .
+Video one frame convert to jpeg jpg.
 
 for lua or openresty .
 
@@ -10,9 +10,9 @@ use ffmpeg libs
 
 test.lua:
 
-	local video2mpeg = require("video2mpeg")
+	local video2jpeg = require("video2jpeg")
 
-	video2mpeg.out2jpeg(0.1, "./a.mp4", "b.jpg")
+	video2jpeg.out2jpeg(0.1, "./a.mp4", "b.jpg")
 
 function out2jpeg args:
 

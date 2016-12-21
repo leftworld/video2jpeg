@@ -31,8 +31,8 @@ static const struct luaL_reg cpt[] = {
 };
 
 /* register library */
-LUALIB_API int luaopen_video2mpeg( lua_State *L ){
-        luaL_openlib( L, "video2mpeg", cpt, 0 );
+LUALIB_API int luaopen_video2jpeg( lua_State *L ){
+        luaL_openlib( L, "video2jpeg", cpt, 0 );
         return 1;
 }
 
